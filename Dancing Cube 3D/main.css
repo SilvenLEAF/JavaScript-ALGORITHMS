@@ -38,3 +38,13 @@
      background: orangered;
      transform:translateY(50px) rotateX(90deg);
 }
+
+.box{
+     animation: rotar 5s linear infinite;
+     transform-style: preserve-3d;
+}
+
+@keyframes rotar {
+     0%{transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg)}
+     100%{transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg)}
+}
