@@ -1,2 +1,1 @@
-# JavaScript-ALGORITHMS
-100+ JavaScript ALGORITHMS
+This is the WORLD of CRAZINESS!!! CRAZIEST relics are found HERE!!
