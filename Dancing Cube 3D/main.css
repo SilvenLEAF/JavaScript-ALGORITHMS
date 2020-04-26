@@ -6,3 +6,10 @@
      position: absolute;
 
 }
+
+.box-box{
+     perspective: 800px;
+     position: fixed;
+     top: 30%;
+     left: 40%;
+}
