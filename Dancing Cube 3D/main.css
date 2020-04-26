@@ -13,3 +13,28 @@
      top: 30%;
      left: 40%;
 }
+
+.front{
+     background: #050;
+     transform: translateZ(50px);
+}
+.back{
+     background: #990;
+     transform: translateZ(-50px);
+}
+.left{
+     background: #500;
+     transform: translateX(50px) rotateY(90deg) ;
+}
+.right{
+     background: #005;
+     transform:translateX(-50px) rotateY(-90deg);
+}
+.top{
+     background: #505;
+     transform:translateY(-50px) rotateX(-90deg);
+}
+.bottom{
+     background: orangered;
+     transform:translateY(50px) rotateX(90deg);
+}
