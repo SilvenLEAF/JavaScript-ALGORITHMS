@@ -1,4 +1,4 @@
-
+/* Given Height and Width and overlaid the cards */
 .box > div{
      height:100px;
      width: 100px;
@@ -6,7 +6,7 @@
      position: absolute;
 
 }
-
+/* Given perspective to the Grandfather */
 .box-box{
      perspective: 800px;
      position: fixed;
@@ -14,6 +14,7 @@
      left: 40%;
 }
 
+/*Placed the cards */
 .front{
      background: #050;
      transform: translateZ(50px);
@@ -38,11 +39,12 @@
      background: orangered;
      transform:translateY(50px) rotateX(90deg);
 }
-
+/* Given animation to the Parent */
 .box{
      animation: rotar 5s linear infinite;
      transform-style: preserve-3d;
 }
+
 
 @keyframes rotar {
      0%{transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg)}
