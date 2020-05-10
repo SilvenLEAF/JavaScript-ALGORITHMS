@@ -1,0 +1,37 @@
+.btn{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+
+     z-index: 1000;
+     background: #900;
+     clip-path: circle(10% at 50% 0%);
+
+     cursor: pointer;
+}
+/* --------------------------------------------------------
+.                 STEP 1: Place the SECTIONS.
+.          Give Z-Index lowest to the vissible div
+--------------------------------------------------------- */
+.main{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+
+     background: #00a;
+     z-index: 10;
+}
+.nav{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+
+     background: #0a0;
+     z-index: 100;
+}
