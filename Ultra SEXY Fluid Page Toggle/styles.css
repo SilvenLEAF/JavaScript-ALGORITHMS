@@ -14,6 +14,9 @@
 /* --------------------------------------------------------
 .                 STEP 1: Place the SECTIONS.
 .          Give Z-Index lowest to the vissible div
+
+STEP 2: Use Clip-Paths and add ACTIVE Classes.
+Add its ACTIVE Class to the visible div in the HTML
 --------------------------------------------------------- */
 .main{
      position: fixed;
@@ -24,6 +27,9 @@
 
      background: #00a;
      z-index: 10;
+
+     clip-path: circle(0% at 50% 100%);
+     transition: 0.9s ease;
 }
 .nav{
      position: fixed;
@@ -34,4 +40,14 @@
 
      background: #0a0;
      z-index: 100;
+
+     clip-path: circle(0% at 0% 0%);
+     transition: 0.9s ease;
+}
+/* -------------------------------------------------- */
+.main.mactive{
+     clip-path: circle(150% at 50% 100%);
+}
+.nav.nactive{
+     clip-path: circle(150% at 0% 0%);
 }
